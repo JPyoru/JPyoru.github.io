@@ -49,15 +49,15 @@ noButton.addEventListener("click", function () {
   }
 
   // 图片变化（前 5 次变化）
-  if (clickCount === 1) mainImage.src = "images/shocked.png"; // 震惊
-  if (clickCount === 2) mainImage.src = "images/think.png"; // 思考
-  if (clickCount === 3) mainImage.src = "images/angry.png"; // 生气
-  if (clickCount === 4) mainImage.src = "images/crying.png"; // 哭
+  if (clickCount === 1) mainImage.src = "B1DE616ED8FA462756FC82F6C5558D49_0.jpg"; // 震惊
+  if (clickCount === 2) mainImage.src = "Image_226108798034317.png"; // 思考
+  if (clickCount === 3) mainImage.src = "Image_367071451856014.jpg"; // 生气
+  if (clickCount === 4) mainImage.src = "Image_367114852266518.jpg"; // 哭
   if (clickCount >= 5) mainImage.src = "images/crying.png"; // 之后一直是哭
 });
 
 // Yes 按钮点击后，进入表白成功页面
-const loveTest = `!!!喜欢你!! ( >᎑<)♡︎ᐝ  ${
+const loveTest = `我喜欢你 ( >᎑<)♡︎ᐝ  ${
   username ? `${safeUsername}  ♡︎ᐝ(>᎑< )` : ""
 }`;
 

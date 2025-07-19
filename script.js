@@ -52,7 +52,7 @@ noButton.addEventListener("click", function () {
   if (clickCount === 1) mainImage.src = "images/20250614_080111.jpg"; // 震惊
   if (clickCount === 2) mainImage.src = "images/Image_226108798034317.png"; // 思考
   if (clickCount === 3) mainImage.src = "images/B1DE616ED8FA462756FC82F6C5558D49_0.jpg"; // 生气
-  if (clickCount === 4) mainImage.src = "Image_367114852266518.jpg"; // 哭
+  if (clickCount === 4) mainImage.src = "images/Image_367071451856014.jpg"; // 哭
   if (clickCount >= 5) mainImage.src = "images/crying.png"; // 之后一直是哭
 });
 

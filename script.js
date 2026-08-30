@@ -20,9 +20,9 @@ let clickCount = 0; // 记录点击 No 的次数
 // No 按钮的文字变化
 const noTexts = [
   "为什么会出现拒绝的情况…",
-  "你真的不收留我？",
+  "你真的不收留我么？",
   "不许选这个！ ",
-  "我会咬死你…",
+  "你不能够丢下我呀，主训。。。",
   "不行:(",
 ];
 
@@ -51,7 +51,7 @@ noButton.addEventListener("click", function () {
   // 图片变化（前 5 次变化）
   if (clickCount === 1) mainImage.src = "images/xmj_1787241095685.jpg"; // 震惊
   if (clickCount === 2) mainImage.src = "images/mmexport1787934339032.jpeg"; // 思考
-  if (clickCount === 3) mainImage.src = "images/B1DE616ED8FA462756FC82F6C5558D49_0.jpg"; // 生气
+  if (clickCount === 3) mainImage.src = "images/mmexport1787934363208.jpeg"; // 生气
   if (clickCount === 4) mainImage.src = "images/Image_367071451856014.jpg"; // 哭
   if (clickCount >= 5) mainImage.src = "images/Image_367114852266518.jpg"; // 之后一直是哭
 });

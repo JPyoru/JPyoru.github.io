@@ -50,7 +50,7 @@ noButton.addEventListener("click", function () {
 
   // 图片变化（前 5 次变化）
   if (clickCount === 1) mainImage.src = "images/xmj_1787241095685.jpg"; // 震惊
-  if (clickCount === 2) mainImage.src = "images/Image_226108798034317.png"; // 思考
+  if (clickCount === 2) mainImage.src = "images/mmexport1787934339032.jpeg"; // 思考
   if (clickCount === 3) mainImage.src = "images/B1DE616ED8FA462756FC82F6C5558D49_0.jpg"; // 生气
   if (clickCount === 4) mainImage.src = "images/Image_367071451856014.jpg"; // 哭
   if (clickCount >= 5) mainImage.src = "images/Image_367114852266518.jpg"; // 之后一直是哭
